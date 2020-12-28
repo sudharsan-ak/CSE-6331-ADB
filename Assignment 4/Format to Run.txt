@@ -1,0 +1,5 @@
+export java file
+
+mvn install
+
+/home/sudharsan/project4/spark-1.5.2-bin-hadoop2.6/bin/spark-submit --class KMeans target/cse6331-project4-0.1.jar points-small.txt centroids.txt
