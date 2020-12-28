@@ -1,0 +1,5 @@
+export java file
+
+mvn install
+
+/home/sudharsan/project5/spark-1.5.2-bin-hadoop2.6/bin/spark-submit --class Partition --master local[2] target/cse6331-project5-0.1.jar small-graph.txt

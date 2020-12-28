@@ -1,0 +1,5 @@
+/home/linuxbrew/.linuxbrew/Cellar/hadoop/3.3.0/bin/hadoop jar target/*.jar GraphPartition small-graph.txt intermediate-small output-small
+
+
+
+/home/linuxbrew/.linuxbrew/Cellar/hadoop/3.3.0/bin/hadoop jar target/*.jar GraphPartition large-graph.txt intermediate-large output-large

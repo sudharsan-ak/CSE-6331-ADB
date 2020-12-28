@@ -1,0 +1,1 @@
+/home/linuxbrew/.linuxbrew/Cellar/hadoop/3.3.0/bin/hadoop jar target/*.jar Graph small-graph.txt output-small
