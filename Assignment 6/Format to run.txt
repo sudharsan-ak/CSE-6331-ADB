@@ -1,0 +1,5 @@
+Export java file
+
+/home/sudharsan/pig-0.16.0/bin/pig -x local -param G=small-graph.txt -param O=output-small graph.pig
+
+/home/sudharsan/pig-0.16.0/bin/pig -x local -param G=large-graph.txt -param O=output-large graph.pig

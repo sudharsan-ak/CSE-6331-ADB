@@ -1,0 +1,11 @@
+export java file
+
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+
+mvn install
+
+
+/home/sudharsan/project4/spark-1.5.2-bin-hadoop2.6/bin/spark-submit --class Partition --master local[2] target/cse6331-project8-0.1.jar small-graph.txt
+
+
+/home/sudharsan/project4/spark-1.5.2-bin-hadoop2.6/bin/spark-submit --class Partition --master local[2] target/cse6331-project8-0.1.jar large-graph.txt
